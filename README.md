@@ -21,5 +21,7 @@ isIterm();  // => true
 MIT
 
 
-<hr>
-<small>Crafted with <3 by Arthur Verschaeve ([@arthur_versch](https://twitter.com/arthur_versch)).</small>
+----------------
+
+
+Crafted with <3 by Arthur Verschaeve ([@arthur_versch](https://twitter.com/arthur_versch)).
