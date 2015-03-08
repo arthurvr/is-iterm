@@ -1,0 +1,32 @@
+{
+  "name": "is-iterm",
+  "description": "Helper to check if the current terminal is iTerm",
+  "author": "Arthur Verschaeve",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arthurvr/is-iterm.git"
+  },
+  "keywords": [
+    "iterm",
+    "terminal",
+    "mac",
+    "detect",
+    "check",
+    "is",
+    "running"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arthurvr/is-iterm/issues"
+  },
+  "homepage": "https://github.com/arthurvr/is-iterm",
+  "devDependencies": {
+    "is-travis": "^1.0.0",
+    "mocha": "*"
+  }
+}
