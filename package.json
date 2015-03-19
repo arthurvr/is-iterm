@@ -2,7 +2,7 @@
   "name": "is-iterm",
   "description": "Helper to check if the current terminal is iTerm",
   "author": "Arthur Verschaeve",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "mocha test"
