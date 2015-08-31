@@ -1,11 +1,18 @@
 {
   "name": "is-iterm",
-  "description": "Helper to check if the current terminal is iTerm",
-  "author": "Arthur Verschaeve",
+  "description": "Helper to check if the terminal is iTerm",
+  "author": {
+    "name": "Arthur Verschaeve",
+    "email": "contact@arthurverschaeve.be",
+    "url": "arthurverschaeve.be"
+  },
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
+  },
+  "engines": {
+    "node": ">=0.10.0"
   },
   "repository": {
     "type": "git",
@@ -18,7 +25,9 @@
     "detect",
     "check",
     "is",
-    "running"
+    "running",
+    "check",
+    "detect"
   ],
   "license": "MIT",
   "devDependencies": {
