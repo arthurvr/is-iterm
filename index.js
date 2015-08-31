@@ -1,2 +1,2 @@
 'use strict';
-module.exports = !!process.env.ITERM_PROFILE;
+module.exports = Boolean(process.env.ITERM_PROFILE);

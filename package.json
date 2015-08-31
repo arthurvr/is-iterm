@@ -9,7 +9,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "xo && mocha"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -32,6 +32,13 @@
   "license": "MIT",
   "devDependencies": {
     "is-travis": "^1.0.0",
-    "mocha": "*"
+    "mocha": "*",
+    "xo": "*"
+  },
+  "xo": {
+    "envs": [
+      "node",
+      "mocha"
+    ]
   }
 }
