@@ -1,18 +1,20 @@
 'use strict';
-var assert = require('assert');
+var test = require('ava');
 var isIterm = require('./');
 var isTravis = require('is-travis');
 
-it('checks if the terminal is running in iTerm', function () {
-	assert.equal(typeof isIterm, 'boolean');
+test('checks if the terminal is running in iTerm', function (t) {
+	t.is(typeof isIterm, 'boolean');
 
 	if (isTravis) {
-		assert(!isIterm);
+		t.false(isIterm);
 	}
 
 	if (/iTerm/.test(process.env.TERM_PROGRAM)) {
-		assert(isIterm);
+		t.true(isIterm);
 	} else {
-		assert(!isIterm);
+		t.false(isIterm);
 	}
+
+	t.end();
 });
