@@ -1,9 +1,8 @@
-'use strict';
-var test = require('ava');
-var isIterm = require('./');
-var isTravis = require('is-travis');
+import test from 'ava';
+import isIterm from './';
+import isTravis from 'is-travis';
 
-test('checks if the terminal is running in iTerm', function (t) {
+test('checks if the terminal is running in iTerm', t => {
 	t.is(typeof isIterm, 'boolean');
 
 	if (isTravis) {
