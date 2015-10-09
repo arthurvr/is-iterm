@@ -13,9 +13,9 @@ $ npm install --save is-iterm
 ## Usage
 
 ```javascript
-var isIterm = require('is-iterm');
+const isIterm = require('is-iterm');
 
-isIterm();  // => true
+isIterm(); // => true
 ```
 
 
